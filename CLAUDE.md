@@ -43,7 +43,7 @@ TOOLS = {
 
 `generate(prompt, temperature)` が唯一のAI呼び出し口。
 
-- モデルは `gemini-2.5-flash` に固定（変更不可）
+- モデルは `gemini-3.5-flash` に固定（変更不可）
 - `temperature` のデフォルトは `0.7`
 - 校正・要約・翻訳など精度重視のツールは `temperature=0.3` を使う
 - エラー時は例外をキャッチして日本語メッセージを返す（呼び出し元でのエラーハンドリングは不要）

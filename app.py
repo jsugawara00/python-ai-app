@@ -11,7 +11,7 @@ def generate(prompt: str, temperature: float = 0.7, system_instruction: str = ""
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(
-            "gemini-2.5-flash",
+            "gemini-3.5-flash",
             system_instruction=system_instruction or None,
             generation_config=genai.GenerationConfig(temperature=temperature),
         )
