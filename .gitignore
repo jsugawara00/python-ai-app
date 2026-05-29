@@ -1,12 +1,6 @@
-# 環境変数・APIキー
 .env
-
-# Pythonキャッシュ
 __pycache__/
 *.pyc
-*.pyo
-
-# 仮想環境
-.venv/
-venv/
-env/
+.agents/
+.claude/
+skills-lock.json
